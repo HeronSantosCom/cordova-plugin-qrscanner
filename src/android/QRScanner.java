@@ -22,9 +22,9 @@ import org.apache.cordova.PermissionHelper;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import android.hardware.Camera;
+import android.hardware.camera2;
 import android.provider.Settings;
-import android.support.v4.app.ActivityCompat;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
