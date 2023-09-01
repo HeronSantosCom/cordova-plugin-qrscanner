@@ -1,3 +1,13 @@
+<a name="3.0.2"></a>
+## [3.0.2](https://github.com/HeronSantosCom/cordova-plugin-qrscanner/compare/2.6.0...3.0.2) (2023-09-01)
+
+
+### Patch 
+
+* **Android:** Adicionado suporte a leitura de Código EAN e ajuste do AndroidManifest.xml
+* **iOS:** Adicionado suporte a leitura de Código EAN
+
+
 <a name="3.0.1"></a>
 ## [3.0.1](https://github.com/bitpay/cordova-plugin-qrscanner/compare/2.6.0...3.0.1) (2019-03-29)
 
