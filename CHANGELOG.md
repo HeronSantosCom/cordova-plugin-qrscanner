@@ -1,10 +1,20 @@
+<a name="3.0.5"></a>
+## [3.0.5](https://github.com/HeronSantosCom/cordova-plugin-qrscanner/compare/3.0.4...3.0.5) (2023-09-04)
+
+
+### Patch 
+
+* **Android:** Fix error: no suitable constructor found for DefaultDecoderFactory(ArrayList<BarcodeFormat>,<null>,<null>)
+
+
+
 <a name="3.0.4"></a>
 ## [3.0.4](https://github.com/HeronSantosCom/cordova-plugin-qrscanner/compare/3.0.3...3.0.4) (2023-09-04)
 
 
 ### Patch 
 
-* **Browser:** Compilação para navegadores
+* **Android:** Add androidx.appcompat:appcompat and upgrade journeyapps:zxing-android-embedded
 
 
 <a name="3.0.3"></a>
