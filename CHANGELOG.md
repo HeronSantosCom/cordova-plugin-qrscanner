@@ -1,3 +1,12 @@
+<a name="3.0.4"></a>
+## [3.0.4](https://github.com/HeronSantosCom/cordova-plugin-qrscanner/compare/3.0.3...3.0.4) (2023-09-04)
+
+
+### Patch 
+
+* **Browser:** Compilação para navegadores
+
+
 <a name="3.0.3"></a>
 ## [3.0.3](https://github.com/HeronSantosCom/cordova-plugin-qrscanner/compare/3.0.2...3.0.3) (2023-09-01)
 
