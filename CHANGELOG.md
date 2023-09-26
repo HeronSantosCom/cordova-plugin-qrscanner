@@ -8,6 +8,15 @@
 * **Merge:** https://github.com/LinTicket/cordova-plugin-qrscanner/commit/ac73ba3b194d9b05eb952c776b2909d0a8454847
 
 
+<a name="3.0.7"></a>
+## [3.0.7](https://github.com/HeronSantosCom/cordova-plugin-qrscanner/compare/3.0.6...3.0.7) (2023-09-26)
+
+
+### Patch 
+
+* **iOS:** Correção do `UIApplication.openSettingsURLString`
+
+
 
 <a name="3.0.5"></a>
 ## [3.0.5](https://github.com/HeronSantosCom/cordova-plugin-qrscanner/compare/3.0.4...3.0.5) (2023-09-04)
