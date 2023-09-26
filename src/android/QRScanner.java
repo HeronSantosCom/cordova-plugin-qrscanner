@@ -44,7 +44,7 @@ public class QRScanner extends CordovaPlugin implements BarcodeCallback {
     private boolean showing = false;
     private boolean prepared = false;
     private int currentCameraId = Camera.CameraInfo.CAMERA_FACING_BACK;
-    private String[] permissions = {Manifest.permission.CAMERA};
+    private String[] permissions = {Manifest.permission.CAMERA, Manifest.permission.READ_MEDIA_IMAGES, Manifest.permission.READ_MEDIA_VIDEO};
     //Preview started or paused
     private boolean previewing = false;
     private BarcodeView  mBarcodeView;
@@ -425,7 +425,8 @@ public class QRScanner extends CordovaPlugin implements BarcodeCallback {
         this.cordova.getActivity().runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                webView.getView().setBackgroundColor(Color.TRANSPARENT);
+                //webView.getView().setBackgroundColor(Color.TRANSPARENT);
+                webView.getView().setBackgroundColor(Color.BLACK);
             }
         });
         showing = false;
@@ -623,7 +624,8 @@ public class QRScanner extends CordovaPlugin implements BarcodeCallback {
         this.cordova.getActivity().runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                webView.getView().setBackgroundColor(Color.argb(1, 0, 0, 0));
+                //webView.getView().setBackgroundColor(Color.argb(1, 0, 0, 0));
+                webView.getView().setBackgroundColor(Color.TRANSPARENT);
                 showing = true;
                 getStatus(callbackContext);
             }
