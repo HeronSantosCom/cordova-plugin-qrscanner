@@ -1,3 +1,14 @@
+<a name="3.0.6"></a>
+## [3.0.6](https://github.com/HeronSantosCom/cordova-plugin-qrscanner/compare/3.0.5...3.0.6) (2023-09-26)
+
+
+### Patch 
+
+* **Merge:** https://github.com/runcible/cordova-plugin-qrscanner/commit/82930cb89e36d324687714936df8ac8dacebd8de
+* **Merge:** https://github.com/LinTicket/cordova-plugin-qrscanner/commit/ac73ba3b194d9b05eb952c776b2909d0a8454847
+
+
+
 <a name="3.0.5"></a>
 ## [3.0.5](https://github.com/HeronSantosCom/cordova-plugin-qrscanner/compare/3.0.4...3.0.5) (2023-09-04)
 
